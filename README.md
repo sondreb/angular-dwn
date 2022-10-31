@@ -1,21 +1,6 @@
-# dwn-ui
+# angular-dwn
 
-This repo demonstrates that importing `dwn-sdk-js` currently fails with compilation error:
-
-```
-./node_modules/@tbd54566975/dwn-sdk-js/dist/esm/src/validation/json-schemas/index.js - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js):
-SyntaxError: C:\src\github\sondreb\angular-dwn\node_modules\@tbd54566975\dwn-sdk-js\dist\esm\src\validation\json-schemas\index.js: Support for the experimental syntax 'importAssertions' isn't currently enabled (1:69):
-
-> 1 | import CollectionsQuery from './collections/collections-query.json' assert { type: 'json' };
-    |                                                                     ^
-  2 | import CollectionsWrite from './collections/collections-write.json' assert { type: 'json' };
-  3 | import Definitions from './definitions.json' assert { type: 'json' };
-  4 | import GeneralJws from './general-jws.json' assert { type: 'json' };
-
-Add @babel/plugin-syntax-import-assertions (https://github.com/babel/babel/tree/main/packages/babel-plugin-syntax-import-assertions) to the 'plugins' section of your Babel config to enable parsing.
-```
-
-The purpose of the repo is to investigate potential solution to the importing errors.
+This is a basic Angular app sample that reference the dwn-sdk-js library and hosts an dwn instance in the browser. It also allows for communication with external dwn instances.
 
 ## Angular App
 
