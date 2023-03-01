@@ -20,12 +20,7 @@
     "esModuleInterop": true,
     "target": "es6",
     "module": "ESNext",
-    "lib": [
-      "ESNext",
-      "es2020",
-      "DOM",
-      "ES6"
-    ]
+    "lib": ["ESNext", "es2020", "DOM", "ES6"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
