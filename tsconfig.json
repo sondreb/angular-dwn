@@ -18,9 +18,15 @@
     "importHelpers": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "target": "es6",
+    "target": "ES2022",
     "module": "ESNext",
-    "lib": ["ESNext", "es2020", "DOM", "ES6"]
+    "lib": [
+      "ESNext",
+      "es2020",
+      "DOM",
+      "ES6"
+    ],
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
